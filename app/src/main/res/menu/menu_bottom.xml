@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/selector_home"
+        android:title="" />
+
+    <item
+        android:id="@+id/plan"
+        android:icon="@drawable/selector_tool"
+        android:title="" />
+    <item
+        android:enabled="false"
+        android:id="@+id/test"
+        android:icon="@null"
+        android:title="" />
+    <item
+        android:id="@+id/statistic"
+        android:icon="@drawable/selector_file"
+        android:title="" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/selector_setting"
+        android:title="" />
+</menu>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0EFF5">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_toolbar_multi">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="22dp"
+                android:fontFamily="@font/app_font_medium"
+                android:gravity="center"
+                android:text="@string/unit"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="15dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/ic_back"
+                android:textColor="@color/black"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frameLayout"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_km"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_border_lang_unselect"
+                android:fontFamily="@font/manrope_medium"
+                android:padding="15dp"
+                android:text="Metric (km)"
+                android:textColor="#29243F"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:id="@+id/txt_mi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_border_lang_unselect"
+                android:fontFamily="@font/manrope_medium"
+                android:padding="15dp"
+                android:text="Imperial (mi)"
+                android:textColor="#29243F"
+                android:textSize="@dimen/_16sdp" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frameLayout"
+            android:layout_alignEnd="@+id/view"
+            android:layout_alignBottom="@+id/view"
+            android:layout_marginEnd="@dimen/_10sdp">
+
+            <RadioButton
+                android:id="@+id/rdo_km"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp" />
+
+            <RadioButton
+                android:id="@+id/rdo_mi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp" />
+
+        </RadioGroup>
+        <include
+            android:id="@+id/progress"
+            layout="@layout/layout_progress_bar"/>
+
+    </RelativeLayout>
+
+</layout>

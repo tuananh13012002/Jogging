@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Jogging</string>
+    <string name="gg_map_api_key" translatable="false">AIzaSyCjpr-SPKr55BYpe_04cg5Gto9T87nqaT8</string>
+
+    <string name="title_intro_1">GPS Tracking</string>
+    <string name="title_intro_2">Health Insights</string>
+    <string name="title_intro_3">Goal Setting</string>
+
+    <string name="title_back_intro">Back</string>
+    <string name="intro_next">Next</string>
+
+    <string name="content_intro_1">Precisely measure your distance and pace</string>
+    <string name="content_intro_2">Monitor your progress and maintain a healthy lifestyle</string>
+    <string name="content_intro_3">Set and achieve your running goals with personalized training plans</string>
+
+    <string name="splash_title">This action can contain ads</string>
+
+    <string name="facebook_app_id" translatable="false"></string>
+    <string name="facebook_client_token" translatable="false"></string>
+    <string name="app_flyer" translatable="false">LikYKU2zUYTct7BoQ7MuJY</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    // policy
+    <string name="privacy_policy_link" translatable="false">https://biuustudio.netlify.app/policy</string>
+
+    <string name="title_dialog_rating_0">Do you like the app?</string>
+    <string name="content_dialog_rating_0">Let us know your experience</string>
+
+    <string name="title_dialog_rating">Oh, no!</string>
+    <string name="content_dialog_rating">Please give us some feedback</string>
+
+    <string name="title_dialog_rating_4_5">We love you too!</string>
+    <string name="content_dialog_rating_4_5">Thanks for your feedback</string>
+    <string name="please_feedback">Please feedback</string>
+
+    // Explore
+    <string name="explore">Explore</string>
+    <string name="overall">Overall</string>
+    <string name="bmi">BMI Calculator</string>
+    <string name="challenges">Challenges</string>
+    <string name="records">Records</string>
+
+    // BMI Calculator
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="calculate">Calculate</string>
+
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+
+    // Overall
+    <string name="total">Total</string>
+    <string name="avg_pace">AVG Pace</string>
+    <string name="avg_speed">AVG Speed</string>
+    <string name="duration">Duration</string>
+    <string name="distance">Distance</string>
+    <string name="calories">Calories</string>
+    <string name="history">History</string>
+
+    // Records
+    <string name="longest_distance">Longest Distance</string>
+    <string name="longest_duration">Longest Duration</string>
+    <string name="most_calories">Most Calories</string>
+    <string name="max_speed">Max Speed</string>
+    <string name="best_pace">Best Pace</string>
+
+    <string-array name="gender_string_list">
+        <item>None</item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string name="sample_file">This is a sample file</string>
+    <string name="validate">Required to enter information</string>
+    <string name="title_language">Language</string>
+    <string name="title_permission">Permission</string>
+    <string name="go">Go</string>
+    <string name="content_permission">\u0022Jogging\u0022 requires permission to use the device’s storage and location</string>
+    <string name="storage_permission">Storage</string>
+    <string name="location_permission">Location</string>
+    <string name="title_start">Started</string>
+    <string name="title_user">User Profile</string>
+    <string name="username">User Name</string>
+    <string name="hint_username">Enter your name</string>
+    <string name="unit">Unit</string>
+    <string name="save">Save</string>
+    <string name="title_setting">Setting</string>
+    <string name="setting_language">Language Options</string>
+    <string name="setting_rate_us">Rate Us</string>
+    <string name="setting_policy">Privacy Policy</string>
+    <string name="rate">Rate</string>
+    <string name="exit">Exit</string>
+    <string name="statistic">Statistic</string>
+    <string name="total_distance">Total Distance</string>
+    <string name="best_distance">Best</string>
+    <string name="average_distance">Average</string>
+    <string name="plan_start">Start Running</string>
+    <string name="beginner">Beginner</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="_5k_running">5K Running</string>
+    <string name="_5k_to_10k_running">5K to 10K Running</string>
+    <string name="walking_to_weight_loss">Walking to Weight Loss</string>
+    <string name="plan">Plan</string>
+    <string name="your_goal_planing">Your goal planing</string>
+    <string name="view_more">View more</string>
+    <string name="let_s_get_started">Let\'s get started</string>
+    <string name="select_music">Select Music</string>
+    <string name="start">Start</string>
+    <string name="_3_days_week_11_weeks">3 Days/Week, 11 Weeks</string>
+    <string name="thank_you">Thank you</string>
+    <string name="finish">Finish</string>
+    <string name="date">Date</string>
+    <string name="please_enter_all_information">Please enter all information.</string>
+    <string name="bmi_1">Severely underweight</string>
+    <string name="bmi_2">Underweight</string>
+    <string name="bmi_3">Normal weight</string>
+    <string name="bmi_4">Overweight</string>
+    <string name="bmi_5">Obesity class I</string>
+    <string name="bmi_6">Obesity class II</string>
+    <string name="bmi_7">Obesity class III</string>
+    <string name="start_running">Start Running</string>
+    <string name="training_plan">Training Plan</string>
+    <string name="content_share">You have just completed a %1s km journey in %1s minutes and burned %1s (kcal) calories.</string>
+    <string name="voice_notification">Voice Notification</string>
+    <string name="enable_noti">You have passed</string>
+    <string name="_10km_4_weeks">10km, 4 Weeks</string>
+    <string name="_5_days_week_12_weeks">5 Days/Week, 12 Weeks</string>
+    <string name="unit_options">Unit Options</string>
+    <string name="join_now">Join Now!</string>
+    <string name="reminder">Reminder</string>
+    <string name="ok">OK</string>
+    <string name="day_1">Day 1</string>
+    <string name="day_2">Day 2</string>
+    <string name="day_3">Day 3</string>
+    <string name="day_4">Day 4</string>
+    <string name="day_5">Day 5</string>
+    <string name="day_6">Day 6</string>
+    <string name="day_7">Day 7</string>
+    <string name="content_day_1">Run %1s meters (1/16 miles), walk %1s metters, repeat 3 times (equivalent race: run 1/4 lap, walk 3/4 lap)</string>
+    <string name="content_day_2">Rest or cross-train</string>
+    <string name="content_day_3">Run %1sm, walk %1sm; Repeat 3 times</string>
+    <string name="content_day_4">Rest</string>
+    <string name="content_day_5">Run %1sm, walk %1sm; Repeat 3 times</string>
+    <string name="content_day_6">Rest or cross-train</string>
+    <string name="content_day_7">Rest</string>
+    <string name="time_distance">time/distance</string>
+    <string name="_4_weeks_to_run_1_6km_continuously">4 weeks to run %1skm continuously</string>
+    <string name="week_1">Week 1</string>
+    <string name="week_2">Week 2</string>
+    <string name="week_3">Week 3</string>
+    <string name="week_4">Week 4</string>
+    <string name="content_week_1">Continuous %1skm running schedule</string>
+    <string name="content_week_2">3 Weeks, 11 Weeks</string>
+    <string name="content_week_3">3 Weeks, 11 Weeks</string>
+    <string name="content_week_4">3 Weeks, 11 Weeks</string>
+    <string name="content_setting_noti">The voice notification function delivers spoken alerts or messages to users when user archive a new record.</string>
+    <string name="details">Details</string>
+    <string name="share">Share</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="_3_days_week_4_weeks">3 Days/Week, 4 Weeks</string>
+    <string name="music">Music</string>
+    <string name="pop">Pop</string>
+    <string name="rock">Rock</string>
+    <string name="hiphop">Hiphop</string>
+    <string name="something_wrong">Something wrong!</string>
+    <string name="content_starter">Fill your information to evaluate your weight, health status and calories burned during the day</string>
+
+</resources>

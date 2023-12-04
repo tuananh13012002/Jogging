@@ -1,0 +1,284 @@
+[
+  {
+    "PopMusic": [
+      {
+        "Id": 1,
+        "Name": "Tropical Summer Beach",
+        "duration": "1:37",
+        "href": "https://cdn.pixabay.com/audio/2021/11/24/audio_36e9109ba2.mp3"
+      },
+      {
+        "Id": 2,
+        "Name": "Modern Summer",
+        "duration": "1:48",
+        "href": "https://cdn.pixabay.com/audio/2021/11/09/audio_cf3e4529a2.mp3"
+      },
+      {
+        "Id": 3,
+        "Name": "Love Song",
+        "duration": "2:07",
+        "href": "https://cdn.pixabay.com/audio/2021/11/09/audio_9ea14ca906.mp3"
+      },
+      {
+        "Id": 4,
+        "Name": "Uplifting Summer",
+        "duration": "1:28",
+        "href": "https://cdn.pixabay.com/audio/2021/11/05/audio_b31bc16fb5.mp3"
+      },
+      {
+        "Id": 5,
+        "Name": "Happy and Fun",
+        "duration": "2:08",
+        "href": "https://cdn.pixabay.com/audio/2021/11/05/audio_cfae514e16.mp3"
+      },
+      {
+        "Id": 6,
+        "Name": "Positive Day",
+        "duration": "1:52",
+        "href": "https://cdn.pixabay.com/audio/2021/11/09/audio_d37660ac93.mp3"
+      },
+      {
+        "Id": 7,
+        "Name": "Happy",
+        "duration": "2:08",
+        "href": "https://cdn.pixabay.com/audio/2021/11/05/audio_6dd6a5f0a1.mp3"
+      },
+      {
+        "Id": 8,
+        "Name": "Leonell Cassio",
+        "duration": "3:37",
+        "href": "https://cdn.pixabay.com/audio/2022/08/31/audio_1c18b3b569.mp3"
+      },
+      {
+        "Id": 9,
+        "Name": "Summer Dance Time",
+        "duration": "1:44",
+        "href": "https://cdn.pixabay.com/audio/2021/11/09/audio_95052c6798.mp3"
+      },
+      {
+        "Id": 10,
+        "Name": "Fun & Happy",
+        "duration": "2:08",
+        "href": "https://cdn.pixabay.com/audio/2021/11/05/audio_2fbbed683d.mp3"
+      },
+      {
+        "Id": 11,
+        "Name": "Under Water",
+        "duration": "2:08",
+        "href": "https://cdn.pixabay.com/audio/2023/03/16/audio_50f82e9d35.mp3"
+      },
+      {
+        "Id": 12,
+        "Name": "Energetic Party",
+        "duration": "2:23",
+        "href": "https://cdn.pixabay.com/audio/2021/11/09/audio_132f9148fe.mp3"
+      },
+      {
+        "Id": 13,
+        "Name": "Optimistic",
+        "duration": "2:42",
+        "href": "https://cdn.pixabay.com/audio/2021/11/05/audio_4c658a365d.mp3"
+      },
+      {
+        "Id": 14,
+        "Name": "Beatboxer Robot",
+        "duration": "2:10",
+        "href": "https://cdn.pixabay.com/audio/2022/08/25/audio_58d115cc70.mp3"
+      },
+      {
+        "Id": 15,
+        "Name": "Future Pop",
+        "duration": "1:36",
+        "href": "https://cdn.pixabay.com/audio/2023/08/14/audio_36db2e13e4.mp3"
+      },
+      {
+        "Id": 16,
+        "Name": "Future Tropical Summer",
+        "duration": "2:00",
+        "href": "https://cdn.pixabay.com/audio/2021/11/05/audio_6a4905c691.mp3"
+      },
+      {
+        "Id": 17,
+        "Name": "How Long",
+        "duration": "1:49",
+        "href": "https://cdn.pixabay.com/audio/2021/11/09/audio_e43baf2ba6.mp3"
+      },
+      {
+        "Id": 18,
+        "Name": "Bright Happy Punk Rock Music",
+        "duration": "2:35",
+        "href": "https://cdn.pixabay.com/audio/2022/05/23/audio_57cf112d21.mp3"
+      },
+      {
+        "Id": 19,
+        "Name": "Happy Summer Day",
+        "duration": "2:07",
+        "href": "https://cdn.pixabay.com/audio/2021/11/05/audio_285113bf1b.mp3"
+      },
+      {
+        "Id": 20,
+        "Name": "Be Happy",
+        "duration": "2:03",
+        "href": "https://cdn.pixabay.com/audio/2021/11/05/audio_794144d116.mp3"
+      },
+      {
+        "Id": 21,
+        "Name": "Catch Me",
+        "duration": "2:17",
+        "href": "https://cdn.pixabay.com/audio/2022/07/23/audio_9846410ab9.mp3"
+      },
+      {
+        "Id": 22,
+        "Name": "Danced Floor",
+        "duration": "2:34",
+        "href": "https://cdn.pixabay.com/audio/2021/11/12/audio_f3cfa7d647.mp3"
+      },
+      {
+        "Id": 23,
+        "Name": "Happy Summer",
+        "duration": "2:31",
+        "href": "https://cdn.pixabay.com/audio/2021/11/05/audio_0db65a61f9.mp3"
+      },
+      {
+        "Id": 24,
+        "Name": "Dance EDM Chops",
+        "duration": "2:05",
+        "href": "https://cdn.pixabay.com/audio/2023/09/06/audio_5e36368200.mp3"
+      },
+      {
+        "Id": 25,
+        "Name": "Future Bass (Uplifting Summer)",
+        "duration": "2:12",
+        "href": "https://cdn.pixabay.com/audio/2023/07/30/audio_567ccda4e9.mp3"
+      },
+      {
+        "Id": 26,
+        "Name": "Wonderful Music Box",
+        "duration": "2:00",
+        "href": "https://cdn.pixabay.com/audio/2023/01/21/audio_6c5e3b9531.mp3"
+      },
+      {
+        "Id": 27,
+        "Name": "Party Mood",
+        "duration": "1:56",
+        "href": "https://cdn.pixabay.com/audio/2021/11/12/audio_1303de499d.mp3"
+      },
+      {
+        "Id": 28,
+        "Name": "Future Bass",
+        "duration": "1:34",
+        "href": "https://cdn.pixabay.com/audio/2023/07/07/audio_c55ad7a697.mp3"
+      },
+      {
+        "Id": 29,
+        "Name": "Red Sky Dubstep",
+        "duration": "1:34",
+        "href": "https://cdn.pixabay.com/audio/2023/09/06/audio_a0c8d084a3.mp3"
+      },
+      {
+        "Id": 30,
+        "Name": "Future Bass Energetic Background Music",
+        "duration": "1:05",
+        "href": "https://cdn.pixabay.com/audio/2023/04/02/audio_07b1cbe891.mp3"
+      },
+      {
+        "Id": 31,
+        "Name": "Dynamic Easy Pop Uplifting Upbeat Showreel Music",
+        "duration": "2:00",
+        "href": "https://cdn.pixabay.com/audio/2022/02/18/audio_c2a80e2807.mp3"
+      }
+    ]
+  },
+  {
+    "HiphopMusic": [
+      {
+        "Id": 32,
+        "Name": "Power Play",
+        "duration": "1:46",
+        "href": "https://cdn.pixabay.com/audio/2023/09/25/audio_bf888756a0.mp3"
+      },
+      {
+        "Id": 33,
+        "Name": "XXL",
+        "duration": "2:27",
+        "href": "https://cdn.pixabay.com/audio/2022/02/16/audio_f086c10849.mp3"
+      },
+      {
+        "Id": 34,
+        "Name": "Run",
+        "duration": "2:24",
+        "href": "https://cdn.pixabay.com/audio/2023/01/10/audio_18132cae17.mp3"
+      },
+      {
+        "Id": 35,
+        "Name": "Hip Hop - Live Wire",
+        "duration": "1:10",
+        "href": "https://cdn.pixabay.com/audio/2022/01/08/audio_ca3052dc5b.mp3"
+      },
+      {
+        "Id": 36,
+        "Name": "Hip Hop - Passages",
+        "duration": "1:51",
+        "href": "https://cdn.pixabay.com/audio/2022/01/12/audio_8d157321c7.mp3"
+      }
+    ]
+  },
+  {
+    "RapMusic": [
+      {
+        "Id": 37,
+        "Name": "Stomp and Claps",
+        "duration": "1:27",
+        "href": "https://cdn.pixabay.com/audio/2022/11/29/audio_a09bd87aec.mp3"
+      },
+      {
+        "Id": 38,
+        "Name": "Acecho",
+        "duration": "4:34",
+        "href": "https://cdn.pixabay.com/audio/2022/09/11/audio_698b395a3c.mp3"
+      },
+      {
+        "Id": 39,
+        "Name": "Cartoon Logo",
+        "duration": "0:16",
+        "href": "https://cdn.pixabay.com/audio/2022/12/13/audio_232bf8d1f7.mp3"
+      },
+      {
+        "Id": 40,
+        "Name": "Trap Music",
+        "duration": "1:54",
+        "href": "https://cdn.pixabay.com/audio/2023/02/09/audio_a4c2ed3809.mp3"
+      },
+      {
+        "Id": 41,
+        "Name": "Desert Storm",
+        "duration": "2:12",
+        "href": "https://cdn.pixabay.com/audio/2022/04/11/audio_addbe8d876.mp3"
+      },
+      {
+        "Id": 42,
+        "Name": "Run",
+        "duration": "2:24",
+        "href": "https://cdn.pixabay.com/audio/2023/01/10/audio_18132cae17.mp3"
+      },
+      {
+        "Id": 43,
+        "Name": "Beatboxer Robot",
+        "duration": "2:10",
+        "href": "https://cdn.pixabay.com/audio/2022/08/25/audio_58d115cc70.mp3"
+      },
+      {
+        "Id": 44,
+        "Name": "Catch Me",
+        "duration": "2:17",
+        "href": "https://cdn.pixabay.com/audio/2022/07/23/audio_9846410ab9.mp3"
+      },
+      {
+        "Id": 45,
+        "Name": "Godspeed3",
+        "duration": "2:02",
+        "href": "https://cdn.pixabay.com/audio/2023/10/17/audio_bb4e00ae7d.mp3"
+      }
+    ]
+  }
+]

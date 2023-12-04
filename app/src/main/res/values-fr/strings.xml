@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Jogging</string>
+    <string name="gg_map_api_key" translatable="false">AIzaSyCjpr-SPKr55BYpe_04cg5Gto9T87nqaT8</string>
+
+    <string name="title_intro_1">Suivi GPS</string>
+    <string name="title_intro_2">Informations sur la santé</string>
+    <string name="title_intro_3">Établissement d\'objectifs</string>
+
+    <string name="title_back_intro">Dos</string>
+    <string name="intro_next">Suivant</string>
+
+    <string name="content_intro_1">Mesurez avec précision votre distance et votre rythme</string>
+    <string name="content_intro_2">Suivez vos progrès et maintenez un mode de vie sain</string>
+    <string name="content_intro_3">Fixez et atteignez vos objectifs de course avec des plans d\'entraînement personnalisés</string>
+
+    <string name="splash_title">Cette action peut contenir des annonces</string>
+
+    <string name="facebook_app_id" translatable="false"/>
+    <string name="facebook_client_token" translatable="false"/>
+    <string name="app_flyer" translatable="false">LikYKU2zUYTct7BoQ7MuJY</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    // policy
+    <string name="privacy_policy_link" translatable="false">https://biuustudio.netlify.app/policy</string>
+
+    <string name="title_dialog_rating_0">Aimez-vous l\'application?</string>
+    <string name="content_dialog_rating_0">Faites nous part de votre expérience</string>
+
+    <string name="title_dialog_rating">Oh non!</string>
+    <string name="content_dialog_rating">Merci de nous faire part de vos commentaires</string>
+
+    <string name="title_dialog_rating_4_5">Nous t\'aimons aussi!</string>
+    <string name="content_dialog_rating_4_5">Merci pour vos commentaires</string>
+    <string name="please_feedback">Commentez s\'il vous plait</string>
+
+    // Explore
+    <string name="explore">Explorer</string>
+    <string name="overall">Dans l\'ensemble</string>
+    <string name="bmi">Calculateur d\'IMC</string>
+    <string name="challenges">Défis</string>
+    <string name="records">Enregistrements</string>
+
+    // BMI Calculator
+    <string name="bmi_calculator">Calculateur d\'IMC</string>
+    <string name="calculate">Calculer</string>
+
+    <string name="gender">Genre</string>
+    <string name="age">Âge</string>
+    <string name="weight">Poids</string>
+    <string name="height">Hauteur</string>
+
+    // Overall
+    <string name="total">Total</string>
+    <string name="avg_pace">Rythme AVG</string>
+    <string name="avg_speed">Vitesse moyenne</string>
+    <string name="duration">Durée</string>
+    <string name="distance">Distance</string>
+    <string name="calories">Calories</string>
+    <string name="history">Histoire</string>
+
+    // Records
+    <string name="longest_distance">La plus longue distance</string>
+    <string name="longest_duration">Durée la plus longue</string>
+    <string name="most_calories">La plupart des calories</string>
+    <string name="max_speed">Vitesse maximale</string>
+    <string name="best_pace">Meilleur rythme</string>
+
+    <string-array name="gender_string_list">
+        <item>Aucun</item>
+        <item>Femelle</item>
+        <item>Mâle</item>
+    </string-array>
+
+    <string name="sample_file">Ceci est un exemple de fichier</string>
+    <string name="validate">Obligatoire pour saisir des informations</string>
+    <string name="title_language">Langue</string>
+    <string name="title_permission">Autorisation</string>
+    <string name="go">Aller</string>
+    <string name="content_permission">\u0022Jogging\u0022 nécessite d\'autorisation d\'utiliser le stockage et d\'emplacement de d\'appareil</string>
+    <string name="storage_permission">Stockage</string>
+    <string name="location_permission">Emplacement</string>
+    <string name="title_start">Commencé</string>
+    <string name="title_user">Profil de l\'utilisateur</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="hint_username">Entrez votre nom</string>
+    <string name="unit">Unité</string>
+    <string name="save">Sauvegarder</string>
+    <string name="title_setting">Paramètre</string>
+    <string name="setting_language">Options linguistiques</string>
+    <string name="setting_rate_us">Évaluez nous</string>
+    <string name="setting_policy">politique de confidentialité</string>
+    <string name="rate">Taux</string>
+    <string name="exit">Sortie</string>
+    <string name="statistic">Statistique</string>
+    <string name="total_distance">Distance totale</string>
+    <string name="best_distance">Meilleur</string>
+    <string name="average_distance">Moyenne</string>
+    <string name="plan_start">Commence à fonctionner</string>
+    <string name="beginner">Débutant</string>
+    <string name="intermediate">Intermédiaire</string>
+    <string name="_5k_running">5K en cours d\'exécution</string>
+    <string name="_5k_to_10k_running">5 km à 10 km en course à pied</string>
+    <string name="walking_to_weight_loss">Marcher vers la perte de poids</string>
+    <string name="plan">Plan</string>
+    <string name="your_goal_planing">Planification de vos objectifs</string>
+    <string name="view_more">Voir plus</string>
+    <string name="let_s_get_started">Commençons</string>
+    <string name="select_music">Sélectionnez la musique</string>
+    <string name="start">Commencer</string>
+    <string name="_3_days_week_11_weeks">3 jours/semaine, 11 semaines</string>
+    <string name="thank_you">Merci</string>
+    <string name="finish">Finition</string>
+    <string name="date">Date</string>
+    <string name="please_enter_all_information">Veuillez saisir toutes les informations.</string>
+    <string name="bmi_1">Insuffisance pondérale grave</string>
+    <string name="bmi_2">Insuffisance pondérale</string>
+    <string name="bmi_3">Poids normal</string>
+    <string name="bmi_4">en surpoids</string>
+    <string name="bmi_5">Classe d\'obésité I</string>
+    <string name="bmi_6">Classe d\'obésité II</string>
+    <string name="bmi_7">Classe d\'obésité III</string>
+    <string name="start_running">Commence à fonctionner</string>
+    <string name="training_plan">Plan de formation</string>
+    <string name="content_share">Vous venez de parcourir %1s km en %1s minutes et brûlé %1s (kcal) calories.</string>
+    <string name="voice_notification">Notification vocale</string>
+    <string name="enable_noti">Tu as réussi</string>
+    <string name="_10km_4_weeks">10km, 4 semaines</string>
+    <string name="_5_days_week_12_weeks">5 jours/semaine, 12 semaines</string>
+    <string name="unit_options">Options d\'unité</string>
+    <string name="join_now">Adhérer maintenant!</string>
+    <string name="reminder">Rappel</string>
+    <string name="ok">D\'ACCORD</string>
+    <string name="day_1">Jour 1</string>
+    <string name="day_2">Jour 2</string>
+    <string name="day_3">Jour 3</string>
+    <string name="day_4">Jour 4</string>
+    <string name="day_5">Jour 5</string>
+    <string name="day_6">Jour 6</string>
+    <string name="day_7">Jour 7</string>
+    <string name="content_day_1">Courez %1s mètres (1/16 miles), marchez %1s mètres, répétez 3 fois (course équivalente : courir ¼ de tour, marcher ¾ de tour)</string>
+    <string name="content_day_2">Repos ou entraînement croisé</string>
+    <string name="content_day_3"><![CDATA[Courez %1s m, marchez %1s m ; Répétez 3 fois]]></string>
+    <string name="content_day_4">Repos</string>
+    <string name="content_day_5"><![CDATA[Courez %1s m, marchez %1s m ; Répétez 3 fois]]></string>
+    <string name="content_day_6">Repos ou entraînement croisé</string>
+    <string name="content_day_7">Repos</string>
+
+    <string name="time_distance">temps/distance</string>
+    <string name="_4_weeks_to_run_1_6km_continuously">4 semaines pour courir %1s km en continu</string>
+    <string name="week_1">Semaine 1</string>
+    <string name="week_2">Semaine 2</string>
+    <string name="week_3">Semaine 3</string>
+    <string name="week_4">Semaine 4</string>
+    <string name="content_week_1">Programme de course continue de %1s km</string>
+    <string name="content_week_2">3 semaines, 11 semaines</string>
+    <string name="content_week_3">3 semaines, 11 semaines</string>
+    <string name="content_week_4">3 semaines, 11 semaines</string>
+    <string name="content_setting_noti">La fonction de notification vocale délivre des alertes vocales ou des messages aux utilisateurs lorsque d\'utilisateur archive un nouvel enregistrement.</string>
+    <string name="details">Details</string>
+    <string name="share">Teilen</string>
+    <string name="congratulations">Glückwünsche!</string>
+    <string name="_3_days_week_4_weeks">3 Jours/Semaine, 4 Semaines</string>
+
+    <string name="music">Musique</string>
+    <string name="pop">Populaire</string>
+    <string name="rock">Rocher</string>
+    <string name="hiphop">Hip hop</string>
+    <string name="something_wrong">Quelque chose ne va pas!</string>
+
+    <string name="content_starter">Remplissez vos informations pour évaluer votre poids, votre état de santé et les calories brûlées au cours de la journée</string>
+
+
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Jogging</string>
+    <string name="gg_map_api_key" translatable="false">AIzaSyCjpr-SPKr55BYpe_04cg5Gto9T87nqaT8</string>
+
+    <string name="title_intro_1">Theo dõi gps</string>
+    <string name="title_intro_2">Thông tin chi tiết về sức khỏe</string>
+    <string name="title_intro_3">Thiết lập mục tiêu</string>
+
+    <string name="title_back_intro">Mặt sau</string>
+    <string name="intro_next">Kế tiếp</string>
+
+    <string name="content_intro_1">Đo chính xác khoảng cách và tốc độ của bạn</string>
+    <string name="content_intro_2">Theo dõi tiến trình của bạn và duy trì lối sống lành mạnh</string>
+    <string name="content_intro_3">Đặt và đạt được mục tiêu chạy bộ của bạn với các kế hoạch tập luyện được cá nhân hóa</string>
+
+    <string name="splash_title">Hành động này có thể chứa quảng cáo</string>
+
+    <string name="facebook_app_id" translatable="false"/>
+    <string name="facebook_client_token" translatable="false"/>
+    <string name="app_flyer" translatable="false">LikYKU2zUYTct7BoQ7MuJY</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    // policy
+    <string name="privacy_policy_link" translatable="false">https://biuustudio.netlify.app/policy</string>
+
+    <string name="title_dialog_rating_0">Bạn có thích ứng dụng này không?</string>
+    <string name="content_dialog_rating_0">hãy cho chúng tôi biết kinh nghiệm của bạn</string>
+
+    <string name="title_dialog_rating">Ôi không!</string>
+    <string name="content_dialog_rating">Vui lòng cho chúng tôi một số phản hồi</string>
+
+    <string name="title_dialog_rating_4_5">Chúng tôi cũng yêu bạn!</string>
+    <string name="content_dialog_rating_4_5">Cảm ơn phản hồi của bạn</string>
+    <string name="please_feedback">Xin vui lòng phản hồi</string>
+
+    // Explore
+    <string name="explore">Khám phá</string>
+    <string name="overall">Tổng thể</string>
+    <string name="bmi">Máy tính BMI</string>
+    <string name="challenges">Thử thách</string>
+    <string name="records">Hồ sơ</string>
+
+    // BMI Calculator
+    <string name="bmi_calculator">Máy tính BMI</string>
+    <string name="calculate">Tính toán</string>
+
+    <string name="gender">Giới tính</string>
+    <string name="age">Tuổi</string>
+    <string name="weight">Cân nặng</string>
+    <string name="height">Chiều cao</string>
+
+    // Overall
+    <string name="total">Tổng cộng</string>
+    <string name="avg_pace">Tốc độ trung bình</string>
+    <string name="avg_speed">Tốc độ AVG</string>
+    <string name="duration">Khoảng thời gian</string>
+    <string name="distance">Khoảng cách</string>
+    <string name="calories">Calo</string>
+    <string name="history">Lịch sử</string>
+
+    // Records
+    <string name="longest_distance">Khoảng cách dài nhất</string>
+    <string name="longest_duration">Thời lượng dài nhất</string>
+    <string name="most_calories">Nhiều calo nhất</string>
+    <string name="max_speed">Tốc độ tối đa</string>
+    <string name="best_pace">Tốc độ tốt nhất</string>
+
+    <string-array name="gender_string_list">
+        <item>Không có</item>
+        <item>Nữ giới</item>
+        <item>Nam giới</item>
+    </string-array>
+
+    <string name="sample_file">Đây là một tập tin mẫu</string>
+    <string name="validate">Bắt buộc phải nhập thông tin</string>
+    <string name="title_language">Ngôn ngữ</string>
+    <string name="title_permission">Sự cho phép</string>
+    <string name="go">Đi</string>
+    <string name="content_permission">\u0022Chạy bộ\u0022 yêu cầu quyền sử dụng bộ nhớ và vị trí của thiết bị</string>
+    <string name="storage_permission">Kho</string>
+    <string name="location_permission">Vị trí</string>
+    <string name="title_start">Đã bắt đầu</string>
+    <string name="title_user">Thông tin người dùng</string>
+    <string name="username">Tên tài khoản</string>
+    <string name="hint_username">Nhập tên của bạn</string>
+    <string name="unit">Đơn vị</string>
+    <string name="save">Lưu</string>
+    <string name="title_setting">Cài đặt</string>
+    <string name="setting_language">Lựa chọn ngôn ngữ</string>
+    <string name="setting_rate_us">Đánh giá chúng tôi</string>
+    <string name="setting_policy">Chính sách bảo mật</string>
+    <string name="rate">Tỷ lệ</string>
+    <string name="exit">Lối ra</string>
+    <string name="statistic">Thống kê</string>
+    <string name="total_distance">Tổng khoảng cách</string>
+    <string name="best_distance">Tốt nhất</string>
+    <string name="average_distance">Trung bình</string>
+    <string name="plan_start">Bắt đầu chạy</string>
+    <string name="beginner">Người bắt đầu</string>
+    <string name="intermediate">Trung cấp</string>
+    <string name="_5k_running">Chạy 5K</string>
+    <string name="_5k_to_10k_running">Chạy 5K đến 10K</string>
+    <string name="walking_to_weight_loss">Đi bộ để giảm cân</string>
+    <string name="plan">Kế hoạch</string>
+    <string name="your_goal_planing">Lập kế hoạch mục tiêu của bạn</string>
+    <string name="view_more">Xem thêm</string>
+    <string name="let_s_get_started">Bắt đầu nào</string>
+    <string name="select_music">Chọn nhạc</string>
+    <string name="start">Bắt đầu</string>
+    <string name="_3_days_week_11_weeks">3 ngày/tuần, 11 tuần</string>
+    <string name="thank_you">Cảm ơn</string>
+    <string name="finish">Hoàn thành</string>
+    <string name="date">Ngày</string>
+    <string name="please_enter_all_information">Vui lòng nhập tất cả thông tin.</string>
+    <string name="bmi_1">Thiếu cân nặng</string>
+    <string name="bmi_2">Thiếu cân</string>
+    <string name="bmi_3">Cân nặng bình thường</string>
+    <string name="bmi_4">Thừa cân</string>
+    <string name="bmi_5">Béo phì loại I</string>
+    <string name="bmi_6">Béo phì loại II</string>
+    <string name="bmi_7">Béo phì loại III</string>
+    <string name="start_running">Bắt đầu chạy</string>
+    <string name="training_plan">Kế hoạch đào tạo</string>
+    <string name="content_share">Bạn vừa hoàn thành hành trình %1s km trong %1s phút và đốt cháy %1s (kcal) calo.</string>
+    <string name="voice_notification">Thông báo bằng giọng nói</string>
+    <string name="enable_noti">Bạn đã qua</string>
+    <string name="_10km_4_weeks">10km, 4 tuần</string>
+    <string name="_5_days_week_12_weeks">5 ngày/tuần, 12 tuần</string>
+    <string name="unit_options">Tùy chọn đơn vị</string>
+    <string name="join_now">Tham gia ngay!</string>
+    <string name="reminder">Lời nhắc nhở</string>
+    <string name="ok">ĐƯỢC RỒI</string>
+    <string name="day_1">Ngày 1</string>
+    <string name="day_2">Ngày 2</string>
+    <string name="day_3">Ngày 3</string>
+    <string name="day_4">Ngày 4</string>
+    <string name="day_5">Ngày 5</string>
+    <string name="day_6">Ngày 6</string>
+    <string name="day_7">Ngày 7</string>
+    <string name="content_day_1">Chạy %1s mét (1/16 dặm), đi bộ %1s mét, lặp lại 3 lần (cuộc đua tương đương: chạy 1/4 vòng, đi bộ 3/4 vòng)</string>
+    <string name="content_day_2">Nghỉ ngơi hoặc tập chéo</string>
+    <string name="content_day_3">Chạy %1sm, đi bộ %1sm; Lặp lại 3 lần</string>
+    <string name="content_day_4">Nghỉ ngơi</string>
+    <string name="content_day_5">Chạy %1sm, đi bộ %1sm; Lặp lại 3 lần</string>
+    <string name="content_day_6">Nghỉ ngơi hoặc tập chéo</string>
+    <string name="content_day_7">Nghỉ ngơi</string>
+
+    <string name="time_distance">thời gian/khoảng cách</string>
+    <string name="_4_weeks_to_run_1_6km_continuously">4 tuần chạy %1skm liên tục</string>
+    <string name="week_1">Tuần 1</string>
+    <string name="week_2">Tuần 2</string>
+    <string name="week_3">Tuần 3</string>
+    <string name="week_4">Tuần 4</string>
+    <string name="content_week_1">Lịch chạy %1skm liên tục</string>
+    <string name="content_week_2">3 tuần, 11 tuần</string>
+    <string name="content_week_3">3 tuần, 11 tuần</string>
+    <string name="content_week_4">3 tuần, 11 tuần</string>
+    <string name="content_setting_noti">Chức năng thông báo bằng giọng nói cung cấp cảnh báo nói hoặc tin nhắn cho người dùng khi người dùng lưu trữ một bản ghi mới.</string>
+
+    <string name="details">Chi tiết</string>
+    <string name="share">Chia sẻ</string>
+    <string name="congratulations">Chúc mừng!</string>
+
+    <string name="_3_days_week_4_weeks">3 Ngày/Tuần, 4 Tuần</string>
+
+    <string name="music">Âm nhạc</string>
+    <string name="pop">Nhạc pop</string>
+    <string name="rock">Đá</string>
+    <string name="hiphop">Hiphop</string>
+    <string name="something_wrong">Có gì đó không đúng!</string>
+
+    <string name="content_starter">Nhập thông tin của bạn để đánh giá cân nặng, tình trạng sức khỏe và lượng calo đốt cháy trong ngày</string>
+
+
+</resources>

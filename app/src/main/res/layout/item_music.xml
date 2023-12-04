@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/white"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_8sdp"
+            android:paddingRight="@dimen/_8sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            >
+
+            <ImageView
+                android:id="@+id/img_music"
+                android:layout_width="@dimen/_32sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_illus_music"
+                android:adjustViewBounds="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/img_music"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_toStartOf="@+id/img_play"
+                >
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amazing Grace"
+                    android:fontFamily="@font/manrope_bold"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:textColor="@color/color_252932"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="03:00"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:textSize="@dimen/_10ssp"
+                    android:fontFamily="@font/manrope_regular"
+                    android:textColor="@color/color_51596C"
+                    />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <ImageView
+                android:id="@+id/img_play"
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_play_red"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="@dimen/_2sdp"
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

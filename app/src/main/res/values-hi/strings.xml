@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Jogging</string>
+    <string name="gg_map_api_key" translatable="false">AIzaSyCjpr-SPKr55BYpe_04cg5Gto9T87nqaT8</string>
+
+    <string name="title_intro_1">जीपीएस ट्रैकिंग</string>
+    <string name="title_intro_2">स्वास्थ्य अंतर्दृष्टि</string>
+    <string name="title_intro_3">लक्ष्य की स्थापना</string>
+
+    <string name="title_back_intro">पीछे</string>
+    <string name="intro_next">अगला</string>
+
+    <string name="content_intro_1">अपनी दूरी और गति को सटीक रूप से मापें</string>
+    <string name="content_intro_2">अपनी प्रगति पर नज़र रखें और स्वस्थ जीवनशैली बनाए रखें</string>
+    <string name="content_intro_3">वैयक्तिकृत प्रशिक्षण योजनाओं के साथ अपने चल रहे लक्ष्य निर्धारित करें और प्राप्त करें</string>
+
+    <string name="splash_title">इस क्रिया में विज्ञापन शामिल हो सकते हैं</string>
+
+    <string name="facebook_app_id" translatable="false"/>
+    <string name="facebook_client_token" translatable="false"/>
+    <string name="app_flyer" translatable="false">LikYKU2zUYTct7BoQ7MuJY</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    // policy
+    <string name="privacy_policy_link" translatable="false">https://biuustudio.netlify.app/policy</string>
+
+    <string name="title_dialog_rating_0">क्या आपको ऐप पसंद है?</string>
+    <string name="content_dialog_rating_0">हमें अपना अनुभव बताएं</string>
+
+    <string name="title_dialog_rating">अरे नहीं!</string>
+    <string name="content_dialog_rating">कृपया हमें कुछ प्रतिक्रिया दें</string>
+
+    <string name="title_dialog_rating_4_5">हम भी तुमसे प्यार करते हैं!</string>
+    <string name="content_dialog_rating_4_5">आपकी प्रतिक्रिया के लिए धन्यवाद</string>
+    <string name="please_feedback">कृपया अपनी प्रतिक्रिया दें</string>
+
+    // Explore
+    <string name="explore">अन्वेषण करना</string>
+    <string name="overall">कुल मिलाकर</string>
+    <string name="bmi">बीएमआई कैलकुलेटर</string>
+    <string name="challenges">चुनौतियां</string>
+    <string name="records">अभिलेख</string>
+
+    // BMI Calculator
+    <string name="bmi_calculator">बीएमआई कैलकुलेटर</string>
+    <string name="calculate">गणना</string>
+
+    <string name="gender">लिंग</string>
+    <string name="age">आयु</string>
+    <string name="weight">वज़न</string>
+    <string name="height">ऊंचाई</string>
+
+    // Overall
+    <string name="total">कुल</string>
+    <string name="avg_pace">औसत गति</string>
+    <string name="avg_speed">औसत गति</string>
+    <string name="duration">अवधि</string>
+    <string name="distance">दूरी</string>
+    <string name="calories">कैलोरी</string>
+    <string name="history">इतिहास</string>
+
+    // Records
+    <string name="longest_distance">सबसे लंबी दूरी</string>
+    <string name="longest_duration">सबसे लंबी अवधि</string>
+    <string name="most_calories">सर्वाधिक कैलोरी</string>
+    <string name="max_speed">अधिकतम चाल</string>
+    <string name="best_pace">सर्वोत्तम गति</string>
+
+    <string-array name="gender_string_list">
+        <item>कोई नहीं</item>
+        <item>महिला</item>
+        <item>पुरुष</item>
+    </string-array>
+
+    <string name="sample_file">यह एक नमूना फ़ाइल है</string>
+    <string name="validate">जानकारी दर्ज करना आवश्यक है</string>
+    <string name="title_language">भाषा</string>
+    <string name="title_permission">अनुमति</string>
+    <string name="go">जाना</string>
+    <string name="content_permission">\u0022जॉगिंग\u0022 को डिवाइस के भंडारण और स्थान का उपयोग करने की अनुमति की आवश्यकता होती है</string>
+    <string name="storage_permission">भंडारण</string>
+    <string name="location_permission">जगह</string>
+    <string name="title_start">शुरू कर दिया</string>
+    <string name="title_user">उपयोगकर्ता रूपरेखा</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="hint_username">अपना नाम दर्ज करें</string>
+    <string name="unit">इकाई</string>
+    <string name="save">बचाना</string>
+    <string name="title_setting">सेटिंग</string>
+    <string name="setting_language">भाषा विकल्प</string>
+    <string name="setting_rate_us">हमें रेटिंग दें</string>
+    <string name="setting_policy">गोपनीयता नीति</string>
+    <string name="rate">दर</string>
+    <string name="exit">बाहर निकलना</string>
+    <string name="statistic">सांख्यिकीय</string>
+    <string name="total_distance">कुल दूरी</string>
+    <string name="best_distance">श्रेष्ठ</string>
+    <string name="average_distance">औसत</string>
+    <string name="plan_start">दौड़ना शुरू करो</string>
+    <string name="beginner">शुरुआती</string>
+    <string name="intermediate">मध्यवर्ती</string>
+    <string name="_5k_running">5K दौड़ना</string>
+    <string name="_5k_to_10k_running">5K से 10K दौड़</string>
+    <string name="walking_to_weight_loss">वजन घटाने के लिए पैदल चलना</string>
+    <string name="plan">योजना</string>
+    <string name="your_goal_planing">आपका लक्ष्य नियोजन</string>
+    <string name="view_more">और देखें</string>
+    <string name="let_s_get_started">आएँ शुरू करें</string>
+    <string name="select_music">संगीत चुनें</string>
+    <string name="start">शुरू</string>
+    <string name="_3_days_week_11_weeks">3 दिन/सप्ताह, 11 सप्ताह</string>
+    <string name="thank_you">धन्यवाद</string>
+    <string name="finish">खत्म करना</string>
+    <string name="date">तारीख</string>
+    <string name="please_enter_all_information">कृपया सारी जानकारी दर्ज करें.</string>
+    <string name="bmi_1">गंभीर रूप से वजन</string>
+    <string name="bmi_2">वजन</string>
+    <string name="bmi_3">सामान्य वज़न</string>
+    <string name="bmi_4">अधिक वजन</string>
+    <string name="bmi_5">मोटापा वर्ग I</string>
+    <string name="bmi_6">मोटापा वर्ग II</string>
+    <string name="bmi_7">मोटापा वर्ग III</string>
+    <string name="start_running">दौड़ना शुरू करो</string>
+    <string name="training_plan">प्रशिक्षण की योजना</string>
+    <string name="content_share">आपने अभी-अभी %1s किमी की यात्रा %1s मिनट में पूरी की है और %1s (kcal) कैलोरी बर्न की है।</string>
+    <string name="voice_notification">ध्वनि सूचना</string>
+    <string name="enable_noti">आप पास हो गए</string>
+    <string name="_10km_4_weeks">10 किमी, 4 सप्ताह</string>
+    <string name="_5_days_week_12_weeks">5 दिन/सप्ताह, 12 सप्ताह</string>
+    <string name="unit_options">इकाई विकल्प</string>
+    <string name="join_now">अब शामिल हों!</string>
+    <string name="reminder">अनुस्मारक</string>
+    <string name="ok">ठीक है</string>
+    <string name="day_1">दिन 1</string>
+    <string name="day_2">दिन 2</string>
+    <string name="day_3">दिन 3</string>
+    <string name="day_4">दिन 4</string>
+    <string name="day_5">दिन 5</string>
+    <string name="day_6">दिन 6</string>
+    <string name="day_7">दिन 7</string>
+    <string name="content_day_1">%1s मीटर (1/16 मील) दौड़ें, %1s मीटर चलें, 3 बार दोहराएं (समकक्ष दौड़: ¼ चक्कर दौड़ें, ¾ चक्कर चलें)</string>
+    <string name="content_day_2">आराम करें या क्रॉस-ट्रेन करें</string>
+    <string name="content_day_3">%1s मीटर दौड़ें, %1s मीटर चलें; 3 बार दोहराएँ</string>
+    <string name="content_day_4">आराम</string>
+    <string name="content_day_5">%1s मीटर दौड़ें, %1s मीटर चलें; 3 बार दोहराएँ</string>
+    <string name="content_day_6">आराम करें या क्रॉस-ट्रेन करें</string>
+    <string name="content_day_7">आराम</string>
+
+    <string name="time_distance">समय/दूरी</string>
+    <string name="_4_weeks_to_run_1_6km_continuously">लगातार %1s किमी दौड़ने के लिए 4 सप्ताह</string>
+    <string name="week_1">सप्ताह 1</string>
+    <string name="week_2">सप्ताह 2</string>
+    <string name="week_3">सप्ताह 3</string>
+    <string name="week_4">सप्ताह 4</string>
+    <string name="content_week_1">लगातार %1s किमी चलने का शेड्यूल</string>
+    <string name="content_week_2">3 सप्ताह, 11 सप्ताह</string>
+    <string name="content_week_3">3 सप्ताह, 11 सप्ताह</string>
+    <string name="content_week_4">3 सप्ताह, 11 सप्ताह</string>
+    <string name="content_setting_noti">ध्वनि सूचना समाचार या संदेश उपयोगकर्ताओं को देता है जब उपयोगकर्ता एक नया रिकॉर्ड संग्रहीत करता है।</string>
+    <string name="details">विवरण</string>
+    <string name="share">साझा करें</string>
+    <string name="congratulations">बधाई हो!</string>
+    <string name="_3_days_week_4_weeks">3 दिन प्रति सप्ताह, 4 हफ्ते</string>
+
+    <string name="music">संगीत</string>
+    <string name="pop">जल्दी से आना</string>
+    <string name="rock">चट्टान</string>
+    <string name="hiphop">हिप हॉप</string>
+    <string name="something_wrong">कुछ गड़बड़ है क्या!</string>
+
+    <string name="content_starter">अपनी जानकारी भरें ताकि आपका वजन, स्वास्थ्य स्थिति और दिनभर में जलाए गए कैलोरी का मूल्यांकन किया जा सके</string>
+
+
+</resources>

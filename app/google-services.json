@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "334866430331",
+    "project_id": "app161-jogging",
+    "storage_bucket": "app161-jogging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334866430331:android:ae212f281eff2acce4a5de",
+        "android_client_info": {
+          "package_name": "com.jogging.walking.weightloss.pedometer.steptracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjpr-SPKr55BYpe_04cg5Gto9T87nqaT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

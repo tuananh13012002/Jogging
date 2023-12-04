@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:background="#F0EFF5">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_toolbar_multi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="22dp"
+                android:fontFamily="@font/app_font_medium"
+                android:gravity="center"
+                android:text="@string/title_setting"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+            tools:layout_editor_absoluteX="15dp">
+
+
+            <TextView
+                android:id="@+id/lang_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_item_setting"
+                android:drawableEnd="@drawable/ic_detail_history"
+                android:drawableStart="@drawable/ic_lang_setting"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:text="@string/setting_language"
+                android:textColor="#252E32"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/profile_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:drawableEnd="@drawable/ic_detail_history"
+                android:background="@drawable/bg_item_setting"
+                android:drawableStart="@drawable/ic_profile_setting"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:text="@string/title_user"
+                android:textColor="#252E32"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/unit_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_item_setting"
+                android:drawableStart="@drawable/ic_unit_setting"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/inter_regular"
+                android:drawableEnd="@drawable/ic_detail_history"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:text="@string/unit_options"
+                android:textColor="#252E32"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_item_setting">
+
+                <TextView
+                    android:id="@+id/voice_noti_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bg_item_setting"
+                    android:drawableStart="@drawable/ic_voice_setting"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:padding="15dp"
+                    android:text="@string/voice_notification"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_noti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:thumb="@drawable/bg_thumb"
+                    app:track="@drawable/bg_track"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/rate_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_item_setting"
+                android:drawableStart="@drawable/ic_rate_setting"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center_vertical"
+                android:drawableEnd="@drawable/ic_detail_history"
+                android:padding="15dp"
+                android:text="@string/setting_rate_us"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/privacy_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_item_setting"
+                android:drawableStart="@drawable/ic_policy_setting"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:text="@string/setting_policy"
+                android:drawableEnd="@drawable/ic_detail_history"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

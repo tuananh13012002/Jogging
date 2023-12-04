@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0EFF5">
+
+        <RelativeLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_toolbar_multi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:layout_marginBottom="@dimen/_18sdp"
+                android:fontFamily="@font/app_font_medium"
+                android:text="@string/details"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/btn_share"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/ic_share"
+                app:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/ic_back"
+                android:textColor="@color/black"
+                app:tint="@color/white" />
+
+        </RelativeLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_20sdp">
+
+                    <FrameLayout
+                        android:id="@+id/view_map"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_200sdp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/img_map"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/bg_detail_run"
+                            android:clipToOutline="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_launcher_background" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_detail_run" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/txt_duration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:fontFamily="@font/manrope_bold"
+                        android:text="13 Jun 2023"
+                        android:textColor="#696FDF"
+                        android:textSize="@dimen/_16sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/view_map" />
+
+                    <TextView
+                        android:id="@+id/txt_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:fontFamily="@font/manrope_regular"
+                        android:text="16:15 - 16:40"
+                        android:textColor="#252E32"
+                        android:textSize="@dimen/_14sdp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/view_map" />
+
+                    <RelativeLayout
+                        android:id="@+id/layout_duration"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:background="@drawable/bg_explore"
+                        android:padding="@dimen/_8sdp"
+                        app:layout_constraintTop_toBottomOf="@+id/txt_duration">
+
+                        <ImageView
+                            android:id="@+id/ic_duration"
+                            android:layout_width="@dimen/_23sdp"
+                            android:layout_height="@dimen/_23sdp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_records_duration" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_toEndOf="@+id/ic_duration"
+                            android:fontFamily="@font/manrope_semibold"
+                            android:text="@string/duration"
+                            android:textColor="#252E32"
+                            android:textSize="@dimen/_14sdp" />
+
+                        <TextView
+                            android:id="@+id/txt_duration2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/manrope_bold"
+                            android:text="00:25:18"
+                            android:textColor="#696FDF"
+                            android:textSize="@dimen/_16sdp" />
+
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/info_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:orientation="vertical"
+                        app:layout_constraintTop_toBottomOf="@+id/layout_duration">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_5sdp"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_explore"
+                                android:padding="@dimen/_8sdp">
+
+                                <ImageView
+                                    android:id="@+id/ic_distance"
+                                    android:layout_width="@dimen/_23sdp"
+                                    android:layout_height="@dimen/_23sdp"
+                                    android:src="@drawable/ic_records_distance" />
+
+                                <TextView
+                                    android:id="@+id/txt_distance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/ic_distance"
+                                    android:layout_marginEnd="@dimen/_5sdp"
+                                    android:fontFamily="@font/manrope_bold"
+                                    android:text="0.7"
+                                    android:textColor="#252E32"
+                                    android:textSize="@dimen/_16sdp" />
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/txt_distance"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/unit_distance"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:fontFamily="@font/manrope_medium"
+                                        android:singleLine="true"
+                                        android:text="@string/distance"
+                                        android:textColor="#8B93A7"
+                                        android:textSize="@dimen/_12sdp" />
+
+                                    <TextView
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:fontFamily="@font/manrope_medium"
+                                        android:gravity="bottom"
+                                        android:text="(km)"
+                                        android:textColor="#8B93A7" />
+                                </LinearLayout>
+
+
+                            </RelativeLayout>
+
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_5sdp"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_explore"
+                                android:padding="@dimen/_8sdp">
+
+                                <ImageView
+                                    android:id="@+id/ic_calo"
+                                    android:layout_width="@dimen/_23sdp"
+                                    android:layout_height="@dimen/_23sdp"
+                                    android:src="@drawable/ic_records_calories" />
+
+                                <TextView
+                                    android:id="@+id/txt_calo"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/ic_calo"
+                                    android:layout_marginEnd="@dimen/_5sdp"
+                                    android:fontFamily="@font/manrope_bold"
+                                    android:text="0.7"
+                                    android:textColor="#252E32"
+                                    android:textSize="@dimen/_16sdp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/txt_calo"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/unit_calo"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:fontFamily="@font/manrope_medium"
+                                        android:singleLine="true"
+                                        android:text="@string/calories"
+                                        android:textColor="#8B93A7"
+                                        android:textSize="@dimen/_12sdp" />
+
+                                    <TextView
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:fontFamily="@font/manrope_medium"
+                                        android:gravity="bottom"
+                                        android:text="(kcal)"
+                                        android:textColor="#8B93A7" />
+                                </LinearLayout>
+
+
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_5sdp"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_explore"
+                                android:padding="@dimen/_8sdp">
+
+                                <ImageView
+                                    android:id="@+id/ic_speed"
+                                    android:layout_width="@dimen/_23sdp"
+                                    android:layout_height="@dimen/_23sdp"
+                                    android:src="@drawable/ic_avg_speed" />
+
+                                <TextView
+                                    android:id="@+id/txt_speed"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/ic_speed"
+                                    android:layout_marginEnd="@dimen/_5sdp"
+                                    android:fontFamily="@font/manrope_bold"
+                                    android:text="0.7"
+                                    android:textColor="#252E32"
+                                    android:textSize="@dimen/_16sdp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/txt_speed"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/unit_speed"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="2"
+                                        android:fontFamily="@font/manrope_medium"
+                                        android:singleLine="true"
+                                        android:text="@string/avg_speed"
+                                        android:textColor="#8B93A7"
+                                        android:textSize="@dimen/_12sdp" />
+
+                                    <TextView
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:fontFamily="@font/manrope_medium"
+                                        android:gravity="bottom"
+                                        android:text="(kph)"
+                                        android:textColor="#8B93A7" />
+                                </LinearLayout>
+
+
+                            </RelativeLayout>
+
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_5sdp"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_explore"
+                                android:padding="@dimen/_8sdp">
+
+                                <ImageView
+                                    android:id="@+id/ic_pace"
+                                    android:layout_width="@dimen/_23sdp"
+                                    android:layout_height="@dimen/_23sdp"
+                                    android:src="@drawable/ic_records_pace" />
+
+                                <TextView
+                                    android:id="@+id/txt_pace"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/ic_pace"
+                                    android:layout_marginEnd="@dimen/_5sdp"
+                                    android:fontFamily="@font/manrope_bold"
+                                    android:text="0.7"
+                                    android:textColor="#252E32"
+                                    android:textSize="@dimen/_16sdp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/txt_pace"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/unit_pace"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:singleLine="true"
+                                        android:fontFamily="@font/manrope_medium"
+                                        android:text="@string/avg_pace"
+                                        android:textColor="#8B93A7"
+                                        android:textSize="@dimen/_12sdp" />
+
+                                    <TextView
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:fontFamily="@font/manrope_medium"
+                                        android:gravity="bottom"
+                                        android:text="(min/km)"
+                                        android:textColor="#8B93A7" />
+                                </LinearLayout>
+
+
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <include
+                    android:id="@+id/progress"
+                    layout="@layout/layout_progress_bar"/>
+            </FrameLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
